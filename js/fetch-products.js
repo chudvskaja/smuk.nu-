@@ -5,7 +5,7 @@ const fullPrice = document.querySelector('.fullprice');
 let price = 0;
 
 function fetchProducts() {
-  fetch("../data/products.json")
+  fetch("./data/products.json")
   .then (response => {
    if (!response.ok) {
     throw new Error(response.status);
