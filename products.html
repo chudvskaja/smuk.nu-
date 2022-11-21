@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/products.min.css">
+</head>
+<body>
+    <header>
+        <!-- Simulate a smartphone / tablet -->
+         <div class="mobile-container">
+         
+         <!-- Top Navigation Menu -->
+         <div class="topnav">
+           <a href="#home">
+             <img src="./assets/logo/smuknu_logo.png" alt="logo Smuk.nu" width="100px">
+         </a>
+           <div id="myLinks">
+             <a href="index.html">FORSIDEN</a>
+             <a href="products.html">VORES PRODUKTER</a>
+             <a href="question.html">SPØRG OM SUNDHED</a>
+             <a href="membership.html">BLIV MEDLEM</a>
+           </div>
+           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+             <i class="fa fa-bars"></i>
+           </a>
+         </div>
+         <!-- End smartphone / tablet look -->
+         </div>
+     </header>
+     <section class="hero">
+         <div class="hero-container">
+             <h1 class="products-title">SKØNNE PRODUKTER</h1>
+             <p class="hero-text">Herunder finder du alle vores produkter</p>
+         </div> 
+     </section>
+     <section id="products">
+         <h2>ALT ER<span class="title-pink"><br>SKØNHED</span></h2>
+     <ul class="products-list">
+         <!-- <li class="product-item">
+             <img class="product-image" src="./assets/products/Product01-Balm/Product01-Balm.png" alt="All purpose balm">
+             <p class="product-title">All purpose balm</p>
+             <p class="product-price">169,00 kr.</p>
+         </li>
+         <li class="product-item">
+             <img class="product-image" src="./assets/products/product_1213213211.jpg" alt="Forlængende vandafvisende mascara">
+             <p class="product-title">Forlængende vandafvisende mascara</p>
+             <p class="product-price">169,00 kr.</p>
+             <button class="button-primary plus" data-id="product-2">+</button>
+             <button class="button-primary minus" data-id="product-2">-</button>
+         </li>
+         <li class="product-item">
+             <img class="product-image" src="./assets/products/Product09-MultiConsealer/Product09-MultiConsealer.png" alt="Multi-Action Concealer">
+             <p class="product-title">Multi-Action Concealer</p>
+             <p class="product-price">169,00 kr.</p>
+             <button class="button-primary plus" data-id="product-3">+</button>
+             <button class="button-primary minus" data-id="product-3">-</button>
+         </li> -->
+     </ul>
+     </section>
+ <section class="membership">
+<div class="member-left">
+ <h2 class="member-title">MEDLEM?</h2>
+ <p class="membership-text">Vær med i kundeklubben for nye videoer, rabatkoder og mere!</p>
+ <a href="membership.html" class="btn-member">Bliv medlem af kundeklubben</a>
+</div>
+ <div id="product-member" class="member-img"></div>
+ </section>
+ <footer>
+ <ul class="social-media-list">
+     <li class="SoMe-item">
+         <a href="">
+             <i class="fa-brands fa-facebook"></i>
+         </a>
+     </li>
+     <li class="SoMe-item">
+         <a href="">
+             <i class="fa-brands fa-instagram"></i>
+         </a>
+     </li>
+     <li class="SoMe-item">
+         <a href="">
+             <i class="fa-brands fa-pinterest"></i>
+         </a>
+     </li>
+     <li class="SoMe-item">
+         <a href="">
+             <i class="fa-brands fa-twitter"></i>
+         </a>
+     </li>
+     <li class="SoMe-item">
+         <a href="">
+             <i class="fa-brands fa-youtube"></i>
+         </a>
+     </li>
+ </ul> 
+ <address>
+     <a href="mailto:mail@smuk.nu">mail@smuk.nu</a><br>
+     <a href="callto:+4512334533">+45 123 345 33</a>
+ 
+ </address>
+ </footer>
+     <script src="./js/burger-menu.js"></script>
+     <script src="https://kit.fontawesome.com/47244aaa39.js" crossorigin="anonymous"></script>
+
+ <script src="./js/fetch-products.js"></script>
+ <script src="./js/fetch-member-product.js"></script>
+</body>
+</html>

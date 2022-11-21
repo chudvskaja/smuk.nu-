@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <title>Smuk.nu</title>
+</head>
+<body>
+    <header>
+       <!-- Simulate a smartphone / tablet -->
+        <div class="mobile-container">
+        
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+          <a href="#home">
+            <img src="./assets/logo/smuknu_logo.png" alt="logo Smuk.nu" width="100px">
+        </a>
+          <div id="myLinks">
+            <a href="index.html">Forsiden</a>
+            <a href="products.html">Vores produkter</a>
+            <a href="question.html">Spørg om sundhed</a>
+            <a href="membership.html">Bliv medlem</a>
+            <div class="cart active" tabindex="0">
+                <i class="fa-solid fa-cart-shopping"></i>
+            <div class="cart-content">
+                <ul class="cart-content__list">
+                    <!-- <li class="cart-content__item">
+                        <article class="cart-content__product cart-product">
+                            <img class="cart-product__img" src="./assets/products/product1.jpg" alt="balm">
+                        <div class="cart-product__text">
+                            <h3 class="cart-product__title">Forlængende vandafvisende mascara</h3>
+                            <span class="cart-product__price">169,00 kr.</span>
+                        </div>
+                        <button class="cart-product__delete" aria-label="delete-product">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                        </article>
+                    </li> -->
+                </ul>
+                <div class="cart-content__bottom">
+                    <div class="cart-content__fullprice">
+                        <span>I alt</span>
+                        <span class="fullprice">338,00 kr.</span>
+                    </div>
+                <button class="btn-cart" type="button">Bestil</button>
+
+                </div>
+            </div>
+            </div>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        <!-- End smartphone / tablet look -->
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero-container">
+            <h1 class="homepage-title">SKØNHED FOR ALLE</h1>
+            <p class="hero-text">Alt hvad du behøver...</p>
+            <p class="hero-text two">SMUK NU</p>
+            <a href="./products.html" class="btn-hero">Se udvalgte produkter</a>
+        </div> 
+    </section>
+    <section id="products">
+        <h2>UDVALGT <span class="title-pink">SKØNHED</span></h2>
+    <ul class="products-list" id="products-list">
+    </ul>
+    </section>
+<section class="statements">
+    <h2 class="statement-title"><span class="title-pink">SKØNHEDER</span> UDTALER</h2>
+    <ul class="statement-list"></ul>
+</section>
+<section class="membership">
+<div class="member-left">
+<h2 class="member-title">MEDLEM?</h2>
+<p class="membership-text">Vær med i kundeklubben for nye videoer, rabatkoder og mere!</p>
+<a href="membership.html" class="btn-member">Bliv medlem af kundeklubben</a>
+</div>
+<div id="index-member" class="member-img"></div>
+</section>
+<footer>
+<ul class="social-media-list">
+    <li class="SoMe-item">
+        <a href="">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+    </li>
+    <li class="SoMe-item">
+        <a href="">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+    </li>
+    <li class="SoMe-item">
+        <a href="">
+            <i class="fa-brands fa-pinterest"></i>
+        </a>
+    </li>
+    <li class="SoMe-item">
+        <a href="">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+    </li>
+    <li class="SoMe-item">
+        <a href="">
+            <i class="fa-brands fa-youtube"></i>
+        </a>
+    </li>
+</ul> 
+<address>
+    <a href="mailto:mail@smuk.nu">mail@smuk.nu</a><br>
+    <a href="callto:+4512334533">+45 123 345 33</a>
+
+</address>
+</footer>
+    <script src="./js/burger-menu.js"></script>
+    <script src="https://kit.fontawesome.com/47244aaa39.js" crossorigin="anonymous"></script>
+<script src="./js/cart.js"></script>
+<script src="./js/fetch-products.js"></script>
+<script src="./js/fetch-statements.js"></script>
+<script src="./js/fetch-member-img-index.js"></script>
+</body>
+</html>
